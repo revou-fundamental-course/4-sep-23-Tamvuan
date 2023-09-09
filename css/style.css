@@ -1,0 +1,45 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: #3AA6B9;
+    color: #EEEEEE;
+    justify-content: center;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+
+}
+
+h2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+h4 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px 0px;
+}
+
+button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+.inputButtonSection {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 8px;
+    padding: 5px 10px;
+}
