@@ -1,45 +1,237 @@
+/* header */
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    color: #96B6C5;
 }
 
 header {
-    background-color: #3AA6B9;
-    color: #EEEEEE;
-    justify-content: center;
-    height: 40%;
-    display: flex;
-    align-items: center;
-    margin-top: 0;
-
-}
-
-h2 {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-bottom: 5px;
-}
-
-h4 {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: 10px 0px;
-}
-
-button {
-    padding: 10px 16px;
-    border: none;
-    border-radius: 5px;
-    margin: 5px;
-
-}
-
-.inputButtonSection {
-    justify-content: center;
+    background-color: #FF6969;
+    color: white;
+    height: 100px;
+    text-align: center;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 8px;
+    justify-content: center;
+}
+
+h1 {
+
+    color: white;
+}
+
+h2 {
+    margin-top: 24px;
+    margin-left: 10px;
+    color: white;
+}
+
+/* content title */
+p {
+    margin-bottom: -50px;
+}
+
+.content-title {
+    text-align: center;
+    color: #BB2525;
+}
+
+.content-title-h1 {
+    margin-bottom: 5px;
+    color: #BB2525;
+}
+
+#content-head-h1 {
+    color: white;
+}
+
+.b-menu {
+    margin-top: 80px;
+    border-radius: 4px;
     padding: 5px 10px;
+    background-color: #141E46;
+    border: none;
+    color: white;
+}
+
+.b-menu:active {
+    background-color: #1F6E8C;
+}
+
+.b-menu:focus {
+    background-color: #1F6E8C;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* content */
+.content-head {
+    background-color: #FF6969;
+    color: whitesmoke;
+    display: flex;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-1 {
+    border: 2px solid #BB2525;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 200%;
+}
+
+#img-bujur-sangkar {
+    width: 15%;
+    height: 15%;
+    margin-top: 5%;
+    margin-left: 43%;
+
+}
+
+.content-1-p {
+    display: flex;
+    flex-direction: column-reverse;
+    color: #BB2525;
+    margin-left: 10px;
+}
+
+.p-formula {
+    text-align: center;
+}
+
+.content-2 {
+    border-top: 2px solid #BB2525;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 15%;
+    margin-top: 140px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.content-2-h1 {
+    color: #BB2525;
+    margin: 2px;
+    margin-top: 2%;
+}
+
+.content-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #BB2525;
+}
+
+.content-3-h1 {
+    color: #E48586;
+    margin-top: 2%;
+}
+
+#result {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #E48586;
+    border: none;
+    margin-left: -2.5%;
+    text-align: center;
+    font-size: 25px;
+    width: 20%;
+    height: 20%;
+}
+
+input {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid #BB2525;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-left: 8%;
+    width: 80%;
+    height: 24px;
+    align-items: center;
+    outline: none;
+}
+
+input[type=number]:focus {
+    border: 3px solid #EEE0C9;
+}
+
+input[type=number]:active {
+    border: 3px solid #EEE0C9;
+}
+
+/* action button */
+.btn-act {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.btn-action {
+    margin: 2px;
+    border-radius: 4px;
+    padding: 5px 10px;
+    background-color: #BB2525;
+    border: none;
+    color: white;
+}
+
+#btn-action-ht {
+    background-color: #141E46;
+    color: white;
+}
+
+#btn-action-ht:active {
+    background-color: #1F6E8C;
+
+}
+
+#btn-action-ht:focus {
+    background-color: #1F6E8C;
+}
+
+#btn-action-rt {
+    background-color: #C70039;
+    color: white;
+}
+
+#btn-action-rt:active {
+    background-color: #C70039;
+    color: white;
+}
+
+#btn-action-rt:focus {
+    background-color: #E48586;
+    color: white;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: #FF6969;
+    color: whitesmoke;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    margin-left: 5px;
+    color: white;
+}
+
+#username {
+    color: #141E46;
 }

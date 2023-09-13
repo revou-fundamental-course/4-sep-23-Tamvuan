@@ -4,32 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalkulator Bangun Ruang</title>
+    <title>Katik</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
         <h1>Katik</h1>
-        <h3>Kalkulator Matematika</h3>
+        <h2>kalkulator matematik</h2>
     </header>
 
-    <div>
-        <h2>Welcome to Katik </h2>
+    <div class="content-title">
+        <section>
+            <h1 class="content-title-h1">Welcome to Katik</h1>
+            <p>Ini website sederhana untuk menghitung nilai luas dan keliling persegi</p>
+            <p>Hai Gengs, Selamat datang di Katik :v</p>
+        </section>
+
+        <section>
+            <button class="b-menu" id="btn_luas_persegi">Luas Persegi</button>
+            <button class="b-menu" id="btn_keliling_persegi">Keliling Persegi</button>
+        </section>
     </div>
-    <div>
-        <h4>Hai Saudaraku, Selamat datang di Katik :v</h4>
-        <h4>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar </h4>
+
+    <div class="content-head">
+        <section>
+            <h1 id="content-head-h1">Silahkan Pilih Menu Diatas !</h1>
+        </section>
     </div>
 
-    <section class="inputButtonSection">
-        <button>Persegi</button>
-        <button>P.Panjang</button>
-    </section>
+    <div class="content-1">
+        <section>
+            <img src="assets/bujur_sangkar.jpg" alt="" id="img-bujur-sangkar">
+        </section>
 
-    <!-- Coba git -->
+        <section class="content-1-p">
+            <p id="desc-title">Rumus</p>
+            <p id="desc-formula" class="p-formula"></p>
+            <p>Dimana :</p>
+            <p id="desc-l"></p>
+            <p id="desc-s"></p>
+        </section>
 
+        <div class="content-2">
+            <h1 class="content-2-h1">Hitung</h1>
+            <h1 class="content-2-h1" id="content-2-h1"></h1>
+            <h1 class="content-2-h1">Persegi</h1>
+        </div>
+
+        <div class="content-3">
+            <input type="text" id="result" value="Hasil" readonly>
+        </div>
+
+        <section>
+            <input type="number" id="inputs" placeholder="Nilai sisi...">
+        </section>
+
+        <section class="btn-act">
+            <button class="btn-action" id="btn-action-ht">Hitung</button>
+            <button class="btn-action" id="btn-action-rt">Reset</button>
+        </section>
+    </div>
+
+    <footer>
+        <h3>RevoU Katik</h3>
+        <h3>Created by</h3>
+        <h3 id="username">@Tam</h3>
+    </footer>
 
 </body>
 
 </html>
+<script type="text/javascript" src="js/script.js"></script>
